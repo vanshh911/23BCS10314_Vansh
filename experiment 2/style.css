@@ -1,0 +1,71 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 400px;
+}
+
+/* Card */
+.card {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Balance Display */
+.balance {
+  font-size: 32px;
+  font-weight: bold;
+  color: green;
+  margin-bottom: 30px;
+}
+
+/* Buttons */
+.btn {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.deposit {
+  background-color: #28a745;
+}
+
+.withdraw {
+  background-color: #dc3545;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .card {
+    padding: 20px;
+  }
+  .balance {
+    font-size: 26px;
+  }
+  .btn {
+    padding: 12px;
+    font-size: 14px;
+  }
+}
